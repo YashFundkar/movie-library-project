@@ -1,29 +1,46 @@
 # Movie Library Project
 
 ## Overview
-A full-stack Movie Library application developed using Node.js, Express.js, MySQL, HTML, CSS and JavaScript.
+Movie Library is a full-stack web application that allows users to add and view movies.
 
 ## Features
-- Add Movies
+- Add Movie
 - View Movies
-- Store data in MySQL
-- Responsive UI
+- Store Data in MySQL
+- Responsive Interface
 
 ## Technologies Used
 - HTML
 - CSS
 - JavaScript
+- Bootstrap 5
 - Node.js
 - Express.js
 - MySQL
 
-## Run the Project
+## Project Structure
 
-1. Install dependencies:
+movie-library
+│
+├── public
+│ ├── index.html
+│ ├── style.css
+│ └── script.js
+│
+├── db.js
+├── server.js
+├── package.json
+
+## How to Run
+
 npm install
 
-2. Start server:
 node server.js
 
-3. Open:
+Open:
+
 http://localhost:5000
+
+## Author
+
+Yash Fundkar
